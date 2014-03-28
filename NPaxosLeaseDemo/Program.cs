@@ -15,6 +15,7 @@ namespace NPaxosLeaseDemo
 
             if (args.Length < 1 || string.IsNullOrEmpty(configFileName = args[0]))
             {
+                // NPaxosLeaseDemo 0.conf
                 Console.WriteLine("Usage: NPaxosLeaseDemo configFileName");
                 return;
             }
