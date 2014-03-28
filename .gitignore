@@ -1,0 +1,9 @@
+*.suo
+*.user
+*.sdf
+*.opensdf
+build
+ipch
+bin
+obj
+.DS_Store

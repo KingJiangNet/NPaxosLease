@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{43e84703-f424-43fe-bcb4-7e488dd0f5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework">
+      <UniqueIdentifier>{bcfc5790-2462-411c-b94c-d179c1f5610f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework\PaxosLease">
+      <UniqueIdentifier>{646f51de-db00-4b36-bb80-193224415da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework\ReplicatedLog">
+      <UniqueIdentifier>{0c0b8cf6-fe4f-4337-bf93-1e81118d0f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Framework\Transport">
+      <UniqueIdentifier>{4f625d66-ef5a-4306-b663-023c1e2c5f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\System">
+      <UniqueIdentifier>{dbfa3be2-c7c5-4a32-8396-9158a746419b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\System\Containers">
+      <UniqueIdentifier>{f8dbb2f4-4cb2-4069-9235-7ad279b4e13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\System\Events">
+      <UniqueIdentifier>{a1bebd41-b451-4c38-a827-aacad8bf8871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\System\IO">
+      <UniqueIdentifier>{2eb63209-cea0-4e4d-9f1d-ab1afd935972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\PaxosLease\PaxosLease.cpp">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\PaxosLease\PLeaseAcceptor.cpp">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\PaxosLease\PLeaseLearner.cpp">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\PaxosLease\PLeaseMsg.cpp">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\PaxosLease\PLeaseProposer.cpp">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\ReplicatedLog\ReplicatedConfig.cpp">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\ReplicatedLog\ReplicatedLog.cpp">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\Transport\TCPServer.cpp">
+      <Filter>src\Framework\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\Transport\TransportTCPReader.cpp">
+      <Filter>src\Framework\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\Transport\TransportTCPWriter.cpp">
+      <Filter>src\Framework\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\Transport\TransportUDPReader.cpp">
+      <Filter>src\Framework\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\Transport\TransportUDPWriter.cpp">
+      <Filter>src\Framework\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Common.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Config.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Log.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Platform.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\ThreadPool_Posix.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\ThreadPool_Windows.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Time_Posix.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Time_Windows.cpp">
+      <Filter>src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Events\EventLoop.cpp">
+      <Filter>src\System\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\Events\Scheduler.cpp">
+      <Filter>src\System\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\IO\Endpoint.cpp">
+      <Filter>src\System\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\IO\IOProcessor_Darwin.cpp">
+      <Filter>src\System\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\IO\IOProcessor_Linux.cpp">
+      <Filter>src\System\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\IO\IOProcessor_Windows.cpp">
+      <Filter>src\System\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\IO\Socket_Posix.cpp">
+      <Filter>src\System\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\System\IO\Socket_Windows.cpp">
+      <Filter>src\System\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\ReplicatedLog\LogQueue.cpp">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Framework\ReplicatedLog\ReplicatedLogMsg.cpp">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NPaxosLease.Interop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Version.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\PaxosLease\PaxosLease.h">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\PaxosLease\PLeaseAcceptor.h">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\PaxosLease\PLeaseConsts.h">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\PaxosLease\PLeaseLearner.h">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\PaxosLease\PLeaseMsg.h">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\PaxosLease\PLeaseProposer.h">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\PaxosLease\PLeaseState.h">
+      <Filter>src\Framework\PaxosLease</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\ReplicatedLog\ReplicatedConfig.h">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\ReplicatedLog\ReplicatedLog.h">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\MessageConn.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\TCPConn.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\TCPServer.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\Transport.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\TransportTCPReader.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\TransportTCPWriter.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\TransportUDPReader.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\Transport\TransportUDPWriter.h">
+      <Filter>src\Framework\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Buffer.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Common.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Config.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Log.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Platform.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Stopwatch.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\ThreadPool.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Time.h">
+      <Filter>src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Containers\List.h">
+      <Filter>src\System\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Containers\Queue.h">
+      <Filter>src\System\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Containers\SortedList.h">
+      <Filter>src\System\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Events\Callable.h">
+      <Filter>src\System\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Events\EventLoop.h">
+      <Filter>src\System\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Events\Scheduler.h">
+      <Filter>src\System\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\Events\Timer.h">
+      <Filter>src\System\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\IO\Endpoint.h">
+      <Filter>src\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\IO\FD.h">
+      <Filter>src\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\IO\IOOperation.h">
+      <Filter>src\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\IO\IOProcessor.h">
+      <Filter>src\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\System\IO\Socket.h">
+      <Filter>src\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\ReplicatedLog\LogQueue.h">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Framework\ReplicatedLog\ReplicatedLogMsg.h">
+      <Filter>src\Framework\ReplicatedLog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NPaxosLease.Interop.def" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NPaxosLease.Interop", "NPaxosLease.Interop\NPaxosLease.Interop.vcproj\NPaxosLease.Interop.vcxproj", "{71C21FF8-1C74-4835-BBEC-45E40EF9C561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPaxosLease", "NPaxosLease\NPaxosLease.csproj", "{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPaxosLeaseDemo", "NPaxosLeaseDemo\NPaxosLeaseDemo.csproj", "{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Debug|Win32.Build.0 = Debug|Win32
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Debug|x64.ActiveCfg = Debug|x64
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Debug|x64.Build.0 = Debug|x64
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Release|Win32.ActiveCfg = Release|Win32
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Release|Win32.Build.0 = Release|Win32
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Release|x64.ActiveCfg = Release|x64
+		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Release|x64.Build.0 = Release|x64
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|x64.ActiveCfg = Debug|x64
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|x64.Build.0 = Debug|x64
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|Win32.ActiveCfg = Release|Any CPU
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|x64.ActiveCfg = Release|x64
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|x64.Build.0 = Release|x64
+		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Debug|Win32.ActiveCfg = Debug|x86
+		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Debug|x64.ActiveCfg = Debug|x64
+		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Debug|x64.Build.0 = Debug|x64
+		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Release|Win32.ActiveCfg = Release|x86
+		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Release|x64.ActiveCfg = Release|x64
+		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
