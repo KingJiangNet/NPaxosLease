@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPaxosLease", "NPaxosLease\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPaxosLeaseDemo", "NPaxosLeaseDemo\NPaxosLeaseDemo.csproj", "{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPaxosLeaseWorker", "NPaxosLeaseWorker\NPaxosLeaseWorker.csproj", "{DA7E40A2-ECB1-42D5-86E3-524CC619C6FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,12 +27,12 @@ Global
 		{71C21FF8-1C74-4835-BBEC-45E40EF9C561}.Release|x64.Build.0 = Release|x64
 		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|Win32.Build.0 = Debug|Any CPU
-		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|x64.ActiveCfg = Debug|x64
-		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|x64.Build.0 = Debug|x64
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Debug|x64.Build.0 = Debug|Any CPU
 		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|Win32.ActiveCfg = Release|Any CPU
 		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|Win32.Build.0 = Release|Any CPU
-		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|x64.ActiveCfg = Release|x64
-		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|x64.Build.0 = Release|x64
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|x64.ActiveCfg = Release|Any CPU
+		{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}.Release|x64.Build.0 = Release|Any CPU
 		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Debug|Win32.ActiveCfg = Debug|x86
 		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Debug|Win32.Build.0 = Debug|x86
 		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Debug|x64.ActiveCfg = Debug|x64
@@ -39,6 +41,11 @@ Global
 		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Release|Win32.Build.0 = Release|x86
 		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Release|x64.ActiveCfg = Release|x64
 		{7CD84925-1D6F-4860-A08C-D3E2AE8F75CC}.Release|x64.Build.0 = Release|x64
+		{DA7E40A2-ECB1-42D5-86E3-524CC619C6FB}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{DA7E40A2-ECB1-42D5-86E3-524CC619C6FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA7E40A2-ECB1-42D5-86E3-524CC619C6FB}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA7E40A2-ECB1-42D5-86E3-524CC619C6FB}.Release|Win32.ActiveCfg = Release|Any CPU
+		{DA7E40A2-ECB1-42D5-86E3-524CC619C6FB}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

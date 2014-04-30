@@ -81,6 +81,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NPaxosLeaseWorker\NPaxosLeaseWorker.csproj">
+      <Project>{DA7E40A2-ECB1-42D5-86E3-524CC619C6FB}</Project>
+      <Name>NPaxosLeaseWorker</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NPaxosLease\NPaxosLease.csproj">
       <Project>{E667CC59-46BB-4448-A3ED-76ACAA46AB7D}</Project>
       <Name>NPaxosLease</Name>
@@ -94,6 +98,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="StartTest.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="StartTest2.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Worker1.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Worker2.cmd">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
