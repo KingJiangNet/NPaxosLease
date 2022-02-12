@@ -28,7 +28,9 @@ namespace NPaxosLeaseDemo
                     return;
                 }
 
-                Console.WriteLine("Election result: {0}", PaxosWorkerUtility.ElectMaster(args[1], Convert.ToInt32(args[2], CultureInfo.InvariantCulture)));
+                string workerConsoleOutput;
+                Console.WriteLine("Election result: {0}", PaxosWorkerUtility.ElectMaster(args[1], Convert.ToInt32(args[2], CultureInfo.InvariantCulture), out workerConsoleOutput));
+                Console.WriteLine(workerConsoleOutput);
                 return;
             }
 
